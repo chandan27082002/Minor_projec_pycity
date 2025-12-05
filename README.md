@@ -7,17 +7,17 @@ This project presents an end-to-end workflow for forecasting electricity consump
 
 # 📊 Project Overview
 
-The workflow covers the complete pipeline:
+* The workflow covers the complete pipeline:
 
-Synthetic data generation using pycity_base
+* Synthetic data generation using pycity_base
 
-Exploratory Data Analysis (EDA)
+* Exploratory Data Analysis (EDA)
 
-Time-series decomposition and stationarity checks
+* Time-series decomposition and stationarity checks
 
-Baseline and advanced forecasting models
+* Baseline and advanced forecasting models
 
-Performance evaluation using multiple metrics
+* Performance evaluation using multiple metrics
 
 Through EDA, the dataset showed daily and weekly seasonal patterns, along with a moderately right-skewed distribution and no outliers. Time-series decomposition revealed strong weekly seasonality and minor mid-year fluctuations. Stationarity tests confirmed that the series is suitable for autoregressive modeling.
 
@@ -25,17 +25,17 @@ Autocorrelation and partial autocorrelation analyses highlighted short-term depe
 
 # 🤖 Modeling & Results
 
-Several forecasting models were implemented:
+* Several forecasting models were implemented:
 
-Naive Baseline Model
+* Naive Baseline Model
 
-AR(1) Autoregressive Model
+* AR(1) Autoregressive Model
 
-Vanilla RNN
+* Vanilla RNN
 
-LSTM
+* LSTM
 
-GRU
+* GRU
 
 Key findings:
 
@@ -59,29 +59,29 @@ Although the current project focuses on a single building, there is substantial 
 
 # 🏙️ 1. City-Scale Synthetic Data Generation
 
-Using the full pyCity ecosystem (pycity_base, pycity_calc, pycity_street), future work can include:
+* Using the full pyCity ecosystem (pycity_base, pycity_calc, pycity_street), future work can include:
 
-Extracting building geometry and street networks from OpenStreetMap
+* Extracting building geometry and street networks from OpenStreetMap
 
-Assigning building types, occupancy behavior, and appliance models
+* Assigning building types, occupancy behavior, and appliance models
 
-Simulating hourly electricity loads for entire districts or cities
+* Simulating hourly electricity loads for entire districts or cities
 
-Aggregating data for forecasting at building, feeder, district, or city level
+* Aggregating data for forecasting at building, feeder, district, or city level
 
-This enables creation of realistic, high-resolution urban energy datasets.
+* This enables creation of realistic, high-resolution urban energy datasets.
 
 # 🔧 2. Handling Missing or Incomplete Real Data
 
 Synthetic data can be used to:
 
-Fill gaps in real-world sensor measurements
+* Fill gaps in real-world sensor measurements
 
-Create long sequences needed for deep learning
+* Create long sequences needed for deep learning
 
-Provide benchmark datasets
+* Provide benchmark datasets
 
-Improve model generalization and robustness
+* Improve model generalization and robustness
 
 This is especially helpful when real datasets have noise or missing timestamps.
 
@@ -89,11 +89,11 @@ This is especially helpful when real datasets have noise or missing timestamps.
 
 The workflow can scale from a single building to:
 
-Residential colonies or multi-building clusters
+* Residential colonies or multi-building clusters
 
-Feeder-level and district-level forecasting
+* Feeder-level and district-level forecasting
 
-City-wide predictions using hierarchical modeling with pyCity
+* City-wide predictions using hierarchical modeling with pyCity
 
 This scalability makes pyCity suitable for smart grid applications and urban energy planning.
 
