@@ -1,6 +1,4 @@
-# Minor_projec_pycity
-
-# Electricity Consumption Forecasting Using PyCity — Mini Project
+# Electricity Consumption Forecasting Using PyCity — Minior Project
 
 This project presents an end-to-end workflow for forecasting electricity consumption using a synthetic dataset generated with pycity_base. The dataset contains hourly electricity usage for the year 2024, enabling structured analysis, feature exploration, and model development.
 
@@ -69,7 +67,7 @@ Although the current project focuses on a single building, there is substantial 
 
 * Aggregating data for forecasting at building, feeder, district, or city level
 
-* This enables creation of realistic, high-resolution urban energy datasets.
+This enables creation of realistic, high-resolution urban energy datasets.
 
 # 🔧 2. Handling Missing or Incomplete Real Data
 
